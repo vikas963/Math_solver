@@ -1,0 +1,83 @@
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2em; 
+}
+#historyButton {
+    background-color:#0e7cf1; 
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#historyButton:hover {
+    background-color:#334f6d;  
+}
+
+#searchSection {
+    text-align: center;
+}
+
+#searchSection h2 {
+    font-size: 1.5em; 
+}
+
+#expressionInput {
+    font-size: 1.2em; 
+    padding: 10px; 
+}
+
+#searchButton {
+    background-color: #0e7cf1; 
+    color: white;
+    padding: 12px 20px; 
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease; 
+}
+
+#searchButton:hover {
+    background-color:#334f6d; 
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.result-card{
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(250, 241, 241, 0.8); Choose your desired background color with some transparency
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.5s ease; Subtle fadeIn animation
+    color: black;
+    margin-top: 20px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
